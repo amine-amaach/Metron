@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Utils",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tproductionCathodeChart: () => {\n\t\treturn getFinalisationData.data.map(\n\t\t\tx => {\n\t\t\t\treturn{\n\t\t\t\t\t\"x\": x.Time,\n\t\t\t\t\t\"y\": x[\"CTT G - Electrolyse (finalistion)- Production Cathode 1 t\"]\n\t\t\t\t}\n\t\t\t}\n\t\t)\n\t},\n}",
+    "variables": []
+  },
+  "id": "Page1_Utils",
+  "deleted": false,
+  "gitSyncId": "62b0f75240b36d1624789f10_62b0fde940b36d162478a031"
+}
